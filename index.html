@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Big Challenge</title>
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main-ruler">
+        
+        <div class="container-3">
+            <h2>The Rock Paper Scissors Game</h2>
+
+            <div class="flexbox-rps" id="flexbox-rps-div">
+                <img src="./resources/rock.png" id="rock" alt="Rock" height="200px" width="200px" onclick="rpsGame(this)">
+                <img src="./resources/paper.png" id="paper" alt="paper" height="200px" width="200px" onclick="rpsGame(this)">
+                <img src="./resources/scissor.png" id="scissor" alt="scissor" height="200px" width="200px" onclick="rpsGame(this)">
+            </div>
+
+            <div>
+                <button class="btn btn-danger" id="playAgain" onclick="location.reload()">Play Again</button></div>
+        </div>
+    </div>
+    <script src="./static/js/script.js"></script>
+</body>
+</html>
