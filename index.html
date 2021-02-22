@@ -11,17 +11,13 @@
 <body>
     <div class="main-ruler">
         <div class="container-3">
-            <h2>The Rock Paper Scissors Game</h2>
-
+            <h3 class="title">Rock Paper Scissor Game</h3>
+            <div id="btnContainer"></div>
             <div class="flexbox-rps" id="flexbox-rps-div">
-                <img src="./resources/rock.png" id="rock" alt="Rock" height="200px" width="200px" onclick="rpsGame(this)">
-                <img src="./resources/paper.png" id="paper" alt="paper" height="200px" width="200px" onclick="rpsGame(this)">
-                <img src="./resources/scissor.png" id="scissor" alt="scissor" height="200px" width="200px" onclick="rpsGame(this)">
+                <img class="rock" src="./resources/rock.png" id="rock" alt="Rock" height="160px" width="160px" onclick="rpsGame(this)">
+                <img class="paper" src="./resources/paper.png" id="paper" alt="paper" height="160px" width="160px" onclick="rpsGame(this)">
+                <img class="scissor" src="./resources/scissor.png" id="scissor" alt="scissor" height="160px" width="160px" onclick="rpsGame(this)">
             </div>
-
-            <div>
-                <button class="btn btn-danger" id="playAgain" onclick="location.reload()">Play Again</button></div>
-        </div>
     </div>
     <script src="./static/js/script.js"></script>
 </body>

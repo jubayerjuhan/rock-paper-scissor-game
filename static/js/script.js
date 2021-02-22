@@ -80,7 +80,8 @@ rpsFrontEnd = (humanImageChoice, botImageChoice, finalMessage) => {
     document.getElementById('rock').remove();
     document.getElementById('paper').remove();
     document.getElementById('scissor').remove();
-
+    document.getElementById('btnContainer').innerHTML = `
+         <button class="btn btn-danger" id="playAgain" onclick="location.reload()">Play Again</button></div> `
     let humandiv = document.createElement('div');
     let botdiv = document.createElement('div');
     let message_div = document.createElement('div');
